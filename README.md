@@ -1,3 +1,6 @@
+## bee-demo-war it is a war project in Eclipse.
+https://github.com/automvc/bee-demo-war
+
 
 Bee
 =========
