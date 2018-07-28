@@ -1,6 +1,3 @@
-## bee-demo-war it is a war project in Eclipse.
-https://github.com/automvc/bee-demo-war
-
 
 Bee
 =========
@@ -23,7 +20,7 @@ jdk1.7+
 **V1.0**  
 Single entity(table) Suid (select,update,insert,delete) object-oriented operation.  
 Automatically generate the Javabean via DB table or view(MySQL,MariaDB).  
-Javabean no annotation,no xml.  
+Convention-over-configuration:Javabean no annotation,no xml.  
 Automatically mapping the table column and the Javabean field.  
 Javabean support the raw type:int,double,and so on.  
 PreparedStatement support.  
@@ -72,7 +69,7 @@ import org.honey.osql.core.BeeFactory;
 import org.honey.osql.example.entity.Orders;
 
 /**
- * @author KingStar
+ * @author Kingstar
  * @since  1.0
  */
 public class OsqlExamEN {
