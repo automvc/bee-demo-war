@@ -1,13 +1,12 @@
 
 Bee
 =========
-**Bee** is an ORM framework.  
-**Honey** is the implementation of the Bee.  
-**Bee** is **Tea** (Timesaving/Tasteful, Easy, Automatic) style ORM framework.  
+**Bee** is an ORM framework.   
+**Bee** is an easy and high efficiency ORM framework.   
+**You don't need to write the Dao by yourself anymore. **   
+**Good Feature:**  Timesaving/Tasteful, Easy, Automatic (**Tea Style**)   
 **Bee** see:  
 https://github.com/automvc/bee  
-**Honey** see:  
-https://github.com/automvc/honey  
 
 ## [中文介绍](../../../bee/blob/master/README_CN.md)  
 [点击链接可查看中文介绍](../../../bee/blob/master/README_CN.md)  
@@ -47,7 +46,8 @@ Customer sql support #{para} placeholder,eg:name=#{name}; like keyword support:#
 Add: chain programming(select&update)
 
 **V1.4**  
-Add: selectById,deleteById
+Add: selectById,deleteById  
+Add: public <T> List<T> select(T entity,String selectFields,int from,int size)
 
 Quick Start:
 =========	
