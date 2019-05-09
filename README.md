@@ -4,7 +4,7 @@ Bee
 **Bee** is an ORM framework.   
 **Bee** is an easy and high efficiency ORM framework.    
 **Coding Complexity is O(1),it means that Bee will do the Dao for you**.  
-**You don't need to write the Dao by yourself anymore**. 
+**You don't need to write the Dao by yourself anymore**.  
 **Good Feature:**  Timesaving/Tasteful, Easy, Automatic (**Tea Style**)   
 **Bee** see:  
 https://github.com/automvc/bee  
