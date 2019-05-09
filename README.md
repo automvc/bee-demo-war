@@ -55,6 +55,7 @@ Quick Start:
 ## 1. Add Bee   
 #### 1.1 if it is a maven project,add the following dependency  
 
+```xml
 		<dependency>
 			<groupId>org.teasoft</groupId>
 			<artifactId>bee</artifactId>
@@ -66,6 +67,7 @@ Quick Start:
 			<artifactId>honey</artifactId>
 			<version>1.4.23</version>
 		</dependency>
+```
 
 #### 1.2  Of course, can download the jar file directly  
 
