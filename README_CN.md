@@ -1,7 +1,7 @@
 
 Bee
 =========
-**Bee** 是一个 ORM框架。    
+**Bee** 是一个 ORM框架,它的开发速度快，编码少,还很简单。    
 **Bee** 是一个具有省时/优雅、简易、自动( **Tea:** Timesaving/Tasteful, Easy, Automatic) 风格的ORM框架。  
 你还在为不断重复写ORM操作数据库的代码而烦恼吗?每写一个service业务层，就要写一个dao层(即使我们知道dao就是简单的查改增删suid操作)。  
 请试试**Bee** 吧，让它帮你从烦琐的编码工作中解脱出来。  
@@ -65,6 +65,9 @@ Procedure存储过程支持(CallableStatement.executeQuery).
 **V1.4**  
 增加: selectById,deleteById  
 增加: public <T> List<T> select(T entity,String selectFields,int from,int size)  
+增加: selectJson add config:ignoreNull;date,time,timestamp Wit hMillisecond format  
+增加: List<String[]> select(String sql), add config:nullToEmptyString  
+完善查询结果缓存机制  
 
 快速开始:
 =========	
@@ -93,6 +96,7 @@ Procedure存储过程支持(CallableStatement.executeQuery).
 用bee.sql脚本创建一个表和插入初始化数据.  
 
 ## 3. 更新数据库的配置信息(在bee.properties)  
+注:如果还没有bee.properties文件,可以自己新建一个.
 
 bee.db.driverName = com.mysql.jdbc.Driver  
 bee.db.url =jdbc:mysql://localhost:3306/bee?characterEncoding=UTF-8  
@@ -159,7 +163,20 @@ public class SuidExam {
 
 ```
 
+综合应用:
+=========	
+**Java快速编程, 让Java的开发速度超过php和Rails。**  
 
+**更快的开发Java Web的新组合：**  
+[Bee+Spring+SpringMVC](../../../../aiteasoft/bee-spring-springmvc)  
+
+**更快的开发Spring Cloud微服务的新组合：**  
+[Bee + Spring Boot](../../../bee-springboot)  
+
+......  
+  
+联系与欢迎:
+=========	
 #### 作者的电子邮箱email:    honeysoft@126.com  
 #### 如有任何相关建议,欢迎给作者发邮件,不胜感激!  
 #### 同时,也欢迎你加入到Bee框架的开发之中,相信有你的加入,Bee会更加美好! 
